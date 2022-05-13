@@ -81,7 +81,7 @@ class _MyLoginState extends State<MyLogin> {
                           child: IconButton(
                             icon: Icon(Icons.arrow_forward),
                             onPressed: () {
-                              Navigator.pushNamed(context, 'selectionpage');
+                              Navigator.pushNamed(context, 'usertype');
                             },
                           ),
                         )

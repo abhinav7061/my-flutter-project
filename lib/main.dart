@@ -1,4 +1,8 @@
+// import 'dart:js';
 import 'package:flutter/material.dart';
+import 'package:htmladdition/inbody/forplayer.dart';
+import 'package:htmladdition/inbody/fororganizer.dart';
+import 'package:htmladdition/inbody/gamedetails.dart';
 import 'package:htmladdition/login/login.dart';
 import 'package:htmladdition/login/register.dart';
 import 'package:htmladdition/login/firstpage.dart';
@@ -16,6 +20,9 @@ void main() {
       'login': (context) => MyLogin(),
       'register': (context) => MyRegister(),
       'usertype': (context) => UserType(),
+      'forplayer': (context) => ForPlayer(),
+      'gamedetails': (context) => GameDetail(),
+      'fororganizer': (context) => ForOrganizer(),
       'selectionpage': (context) => SelectionPage(),
     },
   ));

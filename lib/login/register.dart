@@ -105,7 +105,7 @@ class _MyRegisterState extends State<MyRegister> {
                           child: IconButton(
                             icon: Icon(Icons.arrow_forward),
                             onPressed: () {
-                              Navigator.pushNamed(context, 'selectionpage');
+                              Navigator.pushNamed(context, 'usertype');
                             },
                           ),
                         )
